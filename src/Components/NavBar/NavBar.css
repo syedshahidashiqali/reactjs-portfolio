@@ -1,0 +1,140 @@
+.navBar {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 230px;
+}
+.header {
+    padding: 5px 0;
+    /* display: flex; */
+    justify-content: space-around;
+}
+
+.headerText {
+    font-size: 14px;
+}
+
+.navBarIconsContainer i:not(:last-child) {
+    margin-right: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff !important;
+
+}
+
+ul {
+    font-weight: 600;
+    padding: 0px;
+    list-style-type: none;
+    width: 100vw;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+ul li:not(:first-child){
+    flex: 1;
+    /* border-left: none; */
+}
+
+
+.green a {
+    color: #28df99 !important;
+}
+ul li:first-child{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    /* flex: 1; */
+    /* border-left: none; */
+}
+.logoTitle {
+    flex: 6;
+    /* font-weight: 600; */
+    /* text-align: left; */
+    font-size: 32px;
+}
+
+nav {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    /* padding: 10px 0; */
+    /* align-items: center; */
+    /* align-items: center; */
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 0px;
+    height: 80px;
+}
+
+main.main {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 100px 100px;
+    /* justify-content: space-between; */
+}
+
+main.main i {
+    color: #4986fc !important;
+    font-size: 100px;
+}
+.mainLeft {
+    flex: 1;
+    justify-content: center;
+}
+
+.mainRight {
+    flex: 1;
+}
+
+.mainRightTitle {
+    text-transform:uppercase;
+    word-spacing: 2px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.mainRightDo {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.mainRightDetail {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: #fff;
+}
+
+button {
+    border: none;
+}
+.learnMoreBtn {
+    /* width: 72px; */
+    margin-right: 20px;
+    background-color: #4986fc;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.viewBtn {
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+
+}
