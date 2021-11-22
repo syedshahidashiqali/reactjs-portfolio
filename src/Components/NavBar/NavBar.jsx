@@ -1,7 +1,15 @@
+import Cards from "../Cards/Cards";
 import "./NavBar.css";
+
+// import icons
+import uxIcon from "../../images/ux-icon.png";
+import developmentIcon from "../../images/development-icon.png";
+import brandingIcon from "../../images/branding-icon.png";
+import searchOpIcon from "../../images/search-op-icon.png";
 
 function NavBar() {
     return (
+        <>
         <div className="navBar">
             <div className="header flex">
                 <span className="headerText">Phone no: <b>+00 1234 567</b> or email us: <b>emailsample@email.com</b></span>
@@ -56,6 +64,42 @@ function NavBar() {
                 </div>
             </main>
         </div>
+        <div className="cards-container">
+            <div className="container">
+                <div className="row">
+                    <Cards
+                        icon={uxIcon}
+                        title="UI/UX Design"
+                        para="A small river named Duden flows by their place and supplies 
+                        it with the necessary regelialia. It is a paradisematic country, 
+                        in which roasted parts of sentences fly into your mouth."
+                    />
+                    <Cards
+                        icon={developmentIcon}
+                        title="Development"
+                        para="A small river named Duden flows by their place and supplies 
+                        it with the necessary regelialia. It is a paradisematic country, 
+                        in which roasted parts of sentences fly into your mouth."
+                    />
+                    <Cards
+                        icon={brandingIcon}
+                        title="Branding"
+                        para="A small river named Duden flows by their place and supplies 
+                        it with the necessary regelialia. It is a paradisematic country, 
+                        in which roasted parts of sentences fly into your mouth."
+                    />
+                    <Cards
+                        icon={searchOpIcon}
+                        title="Search engine Optimization"
+                        para="A small river named Duden flows by their place and supplies 
+                        it with the necessary regelialia. It is a paradisematic country, 
+                        in which roasted parts of sentences fly into your mouth."
+                    />
+                    
+                </div>
+            </div>
+        </div>
+        </>
     );
 };
 
