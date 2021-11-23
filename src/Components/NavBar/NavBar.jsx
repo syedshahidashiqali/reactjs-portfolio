@@ -22,7 +22,7 @@ function NavBar() {
             </div>
             <header className="nav">
                 <nav>
-                    <ul className="flex">
+                    <ul className="flex nav-ul">
                         <li className="logoTitle">
                             <a href="#">Portech</a>
                         </li>
