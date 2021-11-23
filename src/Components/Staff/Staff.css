@@ -10,9 +10,23 @@
 
 .staff-card {
     background-color: #1d2736;
-    position: relative;
+    /* position: relative; */
     border-radius: 10px;
     width: 250px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width:576px){
+    .staff-card {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .staff-item {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 .staff-card:hover {
     transition: 500ms ease-in-out;
