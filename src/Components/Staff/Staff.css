@@ -2,3 +2,82 @@
     background-color: #141b25;
     color: #fff;
 }
+
+.staff-child {
+    width: 100%;
+    /* background-color: #1d2736; */
+}
+
+.staff-card {
+    background-color: #1d2736;
+    position: relative;
+    border-radius: 10px;
+    width: 250px;
+}
+.staff-card:hover {
+    background-color: #fff;
+}
+
+.staff-card:hover .staff-child > h5 {
+    color: rgb(19, 18, 18);
+}
+
+
+
+.staff-child {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* position: absolute;
+    bottom: -90px;
+    left: 0; */
+}
+
+.staff-child > h5, .staff-child > h6  {
+    margin-top: 15px;
+}
+
+.staff-child > h6 {
+    color: #4986fc;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.staff-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.staff-team {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.staff-para {
+    /* font-size: 14px; */
+    /* letter-spacing: 1px; */
+    color: #999999;
+}
+
+.staff-btn {
+    border: none;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    background-color: #4986fc;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.staff-icons > i {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    color: #4986fc;
+}
+
+.staff-icons > i:not(:first-child) {
+    margin-left: 15px;
+}
