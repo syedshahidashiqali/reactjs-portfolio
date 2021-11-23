@@ -15,10 +15,12 @@
     width: 250px;
 }
 .staff-card:hover {
+    transition: 500ms ease-in-out;
     background-color: #fff;
 }
 
 .staff-card:hover .staff-child > h5 {
+    transition: 500ms ease-in-out;
     color: rgb(19, 18, 18);
 }
 
@@ -40,6 +42,7 @@
 .staff-child > h6 {
     color: #4986fc;
     font-size: 14px;
+    font-weight: bold;
     letter-spacing: 1px;
 }
 .staff-title {
