@@ -1,0 +1,109 @@
+.intro {
+    background-color: #eaeefb;
+    padding: 50px 0;
+    flex-direction: row;
+    width: 100%;
+}
+.left-section {
+    flex: 1;
+    position: relative;
+    background-image: url("https://preview.colorlib.com/theme/portech/images/xabout-1.jpg.pagespeed.ic.aL066WiUh5.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* width: 50%; */
+    height: 600px;
+}
+
+.left-child-two {
+    background-image: url("https://preview.colorlib.com/theme/portech/images/xabout.jpg.pagespeed.ic.t9M0mcHLL9.webp");
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    background-size: cover;
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    bottom: 0px;
+    right: -30px;
+    /* background-position-x: center; */
+    /* background-position-y: center; */
+}
+
+.left-child-one {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    padding: 20px;
+    background-color: #4986fc;
+    color: white;
+    width: 100px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.left-child-one > h3 {
+    font-weight: bold;
+}
+
+.left-child-one > h6 {
+    font-size: 12px;
+}
+
+.right-section {
+    flex: 1;
+    margin-left: 100px;
+    /* background-color: #fff !important; */
+}
+
+.section-container {
+    justify-content: space-between;
+}
+
+.right-section-title {
+    text-transform: uppercase;
+    color: #4986fc;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.right-section > h2 {
+    font-weight: 600;
+}
+
+.right-section > p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #999999;
+}
+
+.right-section-child-two {
+    /* margin-left: 200px !important; */
+}
+
+.bold {
+    font-weight: 600;
+    font-size: 14px;
+    color: #555;
+}
+
+.pt-5 {
+    padding-top: 450px !important;
+}
+
+.get-in-btn {
+    margin-top: 50px;
+    border: none;
+    background-color:#4986fc;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    font-size:13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}

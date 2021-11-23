@@ -29,3 +29,27 @@
 .jc-sb {
   justify-content:space-between;
 }
+
+.jc-sa {
+  justify-content:space-around;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.p-a {
+  position: absolute;
+}
+
+.p-r {
+  position: relative;
+}
+
+.b-0 {
+  bottom: -400px;
+}
+
+.p-a.b-0 {
+  left: 60px;
+}

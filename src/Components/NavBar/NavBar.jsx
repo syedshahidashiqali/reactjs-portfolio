@@ -64,8 +64,8 @@ function NavBar() {
                 </div>
             </main>
         </div>
-        <div className="cards-container">
-            <div className="container">
+        <div className="cards-container p-r">
+            <div className="container p-a b-0">
                 <div className="row">
                     <Cards
                         icon={uxIcon}
@@ -90,7 +90,7 @@ function NavBar() {
                     />
                     <Cards
                         icon={searchOpIcon}
-                        title="Search engine Optimization"
+                        title="Search Optimization"
                         para="A small river named Duden flows by their place and supplies 
                         it with the necessary regelialia. It is a paradisematic country, 
                         in which roasted parts of sentences fly into your mouth."
