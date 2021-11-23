@@ -4,7 +4,7 @@ function Staff() {
     return (
         <div className="staff pt-4">
             <div className="container staff-container">
-                <div className="row d-flex ai-c py-5">
+                <div className="row d-flex ai-c jc-sb py-5">
                     <div className="col-md-3 col-sm-12 col-xs-12 px-0 mb-5 staff-item">
                         <h6 className="staff-title">TEAM & STAFF</h6>
                         <h2 className="staff-team">Our Team</h2>

@@ -1,10 +1,13 @@
 .cards {
     /* position: absolute; */
-    margin: 50px 0px;
-    padding: 40px 30px ;
+    /* margin: 50px 0px; */
+    /* margin-top: -100px;
+    margin-bottom: -300px !important; */
+
+    padding: 40px 30px;
     background-color: rgba(255,255,255,0.8);
     width: 250px;
-    height: 450px;
+    /* height: 450px; */
     -webkit-box-shadow: 1px 2px 6px 3px rgba(0,0,0,0.55); 
     box-shadow: 1px 2px 6px 3px rgba(0,0,0,0.55);
     z-index: 1;
@@ -26,4 +29,14 @@
     color:#555;
     word-spacing: 1px;
     letter-spacing: .5px;
+}
+
+@media only screen and (max-width:989px) {
+    .cards {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 50px;
+    }
+    
 }

@@ -123,6 +123,11 @@
         margin-right: 5%;
     }
 
+    .intro {
+        padding-top: 0px !important;
+        /* margin-top: 100px !important; */
+    }
+
     /* .left-child-one {
         top: -60px !important;
     } */

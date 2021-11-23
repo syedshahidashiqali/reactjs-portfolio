@@ -64,9 +64,10 @@ function NavBar() {
                 </div>
             </main>
         </div>
-        <div className="cards-container p-r">
-            <div className="container p-a b-0">
-                <div className="row">
+        <div className="cards-container">
+            {/* <div className="container p-a b-0"> */}
+            <div className="container">
+                <div className="row d-flex jc-sb ai-c">
                     <Cards
                         icon={uxIcon}
                         title="UI/UX Design"

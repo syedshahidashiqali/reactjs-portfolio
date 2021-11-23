@@ -4,7 +4,7 @@ import conversationIcon from '../../images/conversation-icon.png';
 
 function Intro() {
     return (
-        <article className="intro pt-5">
+        <article className="intro">
             <div className="container section-container flex ai-c">
                 <section className="left-section">
                     <section className="left-child-one">
@@ -17,7 +17,7 @@ function Intro() {
                 </section>
                 <section className="right-section">
                     <h6 className="right-section-title">Welcome to Portech</h6>
-                    <h2>We Are Portech Creative Studio <br /> Agency</h2>
+                    <h2>We Are Portech Creative Studio  Agency</h2>
                     <p>
                     Far far away, behind the word mountains, far from the countries 
                     Vokalia and Consonantia, there live the blind texts. Separated 

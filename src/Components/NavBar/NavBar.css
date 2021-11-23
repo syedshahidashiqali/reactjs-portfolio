@@ -142,18 +142,21 @@ button {
 
 .cards-container {
     background-color: #eaeefb;
+    padding-bottom: 100px !important;
     position: relative;
 }
 
 .row {
-    display: flex;
+    padding-top: 50px;
+    /* display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 }
 
 @media only screen and (max-width:989px) {
     .nav-ul {
         flex-direction: column;
+        display: none;
     }
     .nav-ul > li:not(:first-child) {
         border: none;
@@ -163,4 +166,35 @@ button {
         border: none;
         margin-top: 10px;
     }
+
+    .header {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    main.main i {
+        font-size: 50px;
+    }
+    main.main {
+        flex-direction: column;
+        text-align: center;
+        /* align-items: center; */
+    }
+    .mainLeft {
+        width: 90vw;
+        margin-bottom: 50px;
+    }
+    .mainRight {
+        width: 90vw;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .navBar {
+        padding-bottom: 10px;
+    }
+    .cards-container {
+        padding-bottom: 0px !important;
+    }
+
 }
