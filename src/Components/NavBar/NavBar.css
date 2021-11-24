@@ -1,7 +1,7 @@
 .navBar {
     position: relative;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     padding-bottom: 230px;
 }
 .header {
@@ -72,9 +72,9 @@ li {
     /* padding: 10px 0; */
     /* align-items: center; */
     /* align-items: center; */
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    border-left: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     margin: 0px;
     height: 80px;
 }
@@ -173,10 +173,10 @@ button {
         flex-direction: column;
         display: none;
     } */
-    .nav-ul > li:not(:first-child) {
+    /* .nav-ul > li:not(:first-child) { */
         /* border: none; */
         /* margin-top: 10px; */
-    }
+    /* } */
     /* .nav-ul > li {
         border: none;
         margin-top: 10px;
@@ -240,13 +240,13 @@ button {
     transform: rotate(-45deg);
 }
 
-.mobile-menu {
+/* .mobile-menu { */
     /* position: absolute;
     top: 50px; */
     /* text-decoration: none; */
     /* font-style: none; */
     /* border: none; */
-}
+/* } */
 
 @keyframes slowShow {
     from {

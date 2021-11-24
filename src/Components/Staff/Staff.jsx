@@ -20,10 +20,10 @@ function Staff() {
                             <h5>Lloyd Wilson</h5>
                             <h6>WEB DEVELOPER</h6>
                             <div className="staff-icons">
-                                <i class="fab fa-twitter-square"></i>
-                                <i class="fab fa-facebook-square"></i>
-                                <i class="fab fa-google-plus-square"></i>
-                                <i class="fab fa-instagram-square"></i>
+                                <i className="fab fa-twitter-square"></i>
+                                <i className="fab fa-facebook-square"></i>
+                                <i className="fab fa-google-plus-square"></i>
+                                <i className="fab fa-instagram-square"></i>
                             </div>
                         </div>
                     </div>
@@ -33,10 +33,10 @@ function Staff() {
                             <h5>Lloyd Wilson</h5>
                             <h6>WEB DEVELOPER</h6>
                             <div className="staff-icons">
-                                <i class="fab fa-twitter-square"></i>
-                                <i class="fab fa-facebook-square"></i>
-                                <i class="fab fa-google-plus-square"></i>
-                                <i class="fab fa-instagram-square"></i>
+                                <i className="fab fa-twitter-square"></i>
+                                <i className="fab fa-facebook-square"></i>
+                                <i className="fab fa-google-plus-square"></i>
+                                <i className="fab fa-instagram-square"></i>
                             </div>
                         </div>
                     </div>
@@ -46,10 +46,10 @@ function Staff() {
                             <h5>Lloyd Wilson</h5>
                             <h6>WEB DEVELOPER</h6>
                             <div className="staff-icons">
-                                <i class="fab fa-twitter-square"></i>
-                                <i class="fab fa-facebook-square"></i>
-                                <i class="fab fa-google-plus-square"></i>
-                                <i class="fab fa-instagram-square"></i>
+                                <i className="fab fa-twitter-square"></i>
+                                <i className="fab fa-facebook-square"></i>
+                                <i className="fab fa-google-plus-square"></i>
+                                <i className="fab fa-instagram-square"></i>
                             </div>
                         </div>
                     </div>

@@ -49,19 +49,19 @@ function NavBar() {
             <b>emailsample@email.com</b>
           </span>
           <div className="navBarIconsContainer">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-dribbble"></i>
+            <i className="fab fa-facebook-f"></i>
+            <i className="fab fa-twitter"></i>
+            <i className="fab fa-instagram"></i>
+            <i className="fab fa-dribbble"></i>
           </div>
         </div>
         <header className="nav">
           <nav>
-            <a href="/" class="logoTitle hide-on-desktop">
+            <a href="/" className="logoTitle hide-on-desktop">
               Portech
             </a>
-            {/* <a href="#" class="hamburger-menu hide-for-desktop"> */}
-            <a href="#" onClick={() => clickHandler()} class={classList}>
+            {/* <a href="#" className="hamburger-menu hide-for-desktop"> */}
+            <a href="#" onClick={() => clickHandler()} className={classList}>
               <span></span>
               <span></span>
               <span></span>
@@ -98,8 +98,8 @@ function NavBar() {
         </header>
         <main className="main flex ai-c">
           <div className="mainLeft flex ai-c">
-            {/* <i class="fas fa-play-circle"></i> */}
-            <i class="fas fa-play-circle"></i>
+            {/* <i className="fas fa-play-circle"></i> */}
+            <i className="fas fa-play-circle"></i>
           </div>
           <div className="mainRight">
             <h6 className="mainRightTitle">Welcome to protech</h6>
