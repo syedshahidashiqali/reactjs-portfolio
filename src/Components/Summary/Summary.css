@@ -1,6 +1,48 @@
 .summary {
+    color: #fff;
+    width: 100% !important;
     background-image: url("https://preview.colorlib.com/theme/portech/images/xbg_4.jpg.pagespeed.ic.E4otv5zS7m.webp");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+.summary-container {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-left: 5%;
+    padding-right: 5% !important;
+    background:linear-gradient(45deg,rgba(32,124,229, 0.7) 0%, rgba(111,75,232, 0.8) 100%) !important;
+}
+
+.summaryNum {
+    /* margin-bottom: 5px; */
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.summaryTitle {
+    font-size: 15px;
+    font-weight: 600;
+}
+/* @media only screen and (max-width:576px){ */
+@media only screen and (max-width:576px){
+    .summaryRow {
+        width: 100vw;
+    }
+    .summaryCard {
+        width: 90% !important;
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+    .summaryCard:not(:first-child){
+        margin-top: 10%;
+    }
+    /* .staff-item {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    } */
 }
