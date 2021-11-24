@@ -10,27 +10,13 @@ import searchOpIcon from "../../images/search-op-icon.png";
 
 function MobileMenu() {
   return (
-    <div>
-      <ul>
-        <li className="green">
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Services</a>
-        </li>
-        <li>
-          <a href="#">Portfolio</a>
-        </li>
-        <li>
-          <a href="#">Blog</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
+    <div className="mobile-menu hide-on-desktop">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
     </div>
   );
 }
@@ -80,6 +66,11 @@ function NavBar() {
               <span></span>
               <span></span>
             </a>
+            {classList == "hamburger-menu hide-on-desktop open" ? (
+          <MobileMenu />
+        ) : (
+          ""
+        )}
             <ul className="flex nav-ul hide-on-tablet">
               <li className="logoTitle">
                 <a href="#">Portech</a>

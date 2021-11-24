@@ -156,13 +156,18 @@ button {
 @media only screen and (max-width:989px) {
 
     nav {
+        background-color: black !important;
+    }
+
+    nav {
         display: flex;
         align-items: center;
         /* justify-content: space-around; */
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 10px;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     /* .nav-ul {
         flex-direction: column;
@@ -234,3 +239,74 @@ button {
 .hamburger-menu.open > span:last-child{
     transform: rotate(-45deg);
 }
+
+.mobile-menu {
+    /* position: absolute;
+    top: 50px; */
+    /* text-decoration: none; */
+    /* font-style: none; */
+    /* border: none; */
+}
+
+@keyframes slowShow {
+    from {
+        opacity:0;
+        width: 0%;
+        height: 0%;
+    }
+    to {
+        opacity: 1;
+        width: 50%;
+        height: 214px;
+    }
+
+    /* from {background-color: red;}
+    to {background-color: blue;} */
+  }
+
+.mobile-menu {
+    font-weight: bold;
+    animation-name: slowShow;
+    animation-duration: 200ms;
+    position: fixed;
+    z-index: 1;
+    width: 50%;
+    /* top: 60px; */
+    top: 100px;
+    right: 50%;
+    transform: translateX(50%);
+    background-color: rgba(0, 0, 0, .89);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.mobile-menu a:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.mobile-menu a:first-child{
+    color: #28df99 !important;
+}
+
+.mobile-menu > a:hover {
+    color: #28df99 !important;
+}
+
+
+
+/* .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    border: none;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.mobile-menu ul li {
+    border: none;
+    margin: 0 !important;
+    padding: 0 !important;
+} */
