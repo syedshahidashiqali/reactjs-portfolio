@@ -116,7 +116,7 @@ function NavBar() {
             {/* <i className="fas fa-play-circle"></i> */}
             <i className="fas fa-play-circle"></i>
           </div>
-          <div className="mainRight d-flex fd-column">
+          <div data-aos="fade-up" className="mainRight d-flex fd-column">
             <h6 className="mainRightTitle">Welcome to protech</h6>
             <h2 className="mainRightDo">
               WE CREATE WEBSITE THE WAY YOU WANT WITH PROTECH
