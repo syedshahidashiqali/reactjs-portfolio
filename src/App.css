@@ -64,6 +64,11 @@
 
 @media only screen and (min-width:989px) {
   .hide-on-desktop {
-    display: none;
+    display: none !important;
+  }
+
+  .mobile-menu {
+    /* background-color: red !important;
+    display: none !important; */
   }
 }

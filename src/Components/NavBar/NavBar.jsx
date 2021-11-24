@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Cards from "../Cards/Cards";
 import "./NavBar.css";
 
@@ -31,8 +31,10 @@ function NavBar() {
   //     }
   // })
 
+  
   const [classList, setClassList] = useState("hamburger-menu hide-on-desktop");
 
+  
   const clickHandler = () => {
     if (classList == "hamburger-menu hide-on-desktop") {
       setClassList("hamburger-menu hide-on-desktop open");
@@ -40,13 +42,26 @@ function NavBar() {
       setClassList("hamburger-menu hide-on-desktop");
     }
   };
+
+  useEffect(() => {
+    const getSize = () => {
+      window.addEventListener("resize", () => {
+        var width = window.innerWidth;
+        if(width >= 994){
+          setClassList("hamburger-menu hide-on-desktop");
+        }
+        console.log(`Window width is: ${width}px`)
+      })
+    };
+    getSize()
+  },[])
   return (
     <>
       <div className="navBar">
         <div className="header flex hide-on-tablet">
-          <span className="headerText">
-            Phone no: <b>+00 1234 567</b> or email us:{" "}
-            <b>emailsample@email.com</b>
+          <span className="headerText" style={{color: "rgba(255,255,255,0.6)"}}>
+            Phone no: <b style={{color:"#fff"}}>+00 1234 567</b> or email us:{" "}
+            <b style={{color:"#fff"}}>emailsample@email.com</b>
           </span>
           <div className="navBarIconsContainer">
             <i className="fab fa-facebook-f"></i>
@@ -90,7 +105,7 @@ function NavBar() {
               <li>
                 <a href="#">Blog</a>
               </li>
-              <li>
+              <li style={{flex:1.5}}>
                 <a href="#">Contact</a>
               </li>
             </ul>
@@ -101,11 +116,11 @@ function NavBar() {
             {/* <i className="fas fa-play-circle"></i> */}
             <i className="fas fa-play-circle"></i>
           </div>
-          <div className="mainRight">
+          <div className="mainRight d-flex fd-column">
             <h6 className="mainRightTitle">Welcome to protech</h6>
-            <h1 className="mainRightDo">
+            <h2 className="mainRightDo">
               WE CREATE WEBSITE THE WAY YOU WANT WITH PROTECH
-            </h1>
+            </h2>
             <h6 className="mainRightDetail">
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts.

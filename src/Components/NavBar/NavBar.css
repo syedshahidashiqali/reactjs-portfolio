@@ -5,13 +5,13 @@
     padding-bottom: 230px;
 }
 .header {
-    padding: 5px 0;
+    padding: 1% 4%;
     /* display: flex; */
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .headerText {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .navBarIconsContainer i:not(:last-child) {
@@ -55,7 +55,11 @@ ul li:first-child{
     flex: 6;
     /* font-weight: 600; */
     /* text-align: left; */
-    font-size: 32px;
+    font-size: 24px;
+}
+
+.nav-ul > li > a:hover{
+    color: #28df99 !important;
 }
 
 nav {
@@ -87,7 +91,10 @@ main.main {
 
 main.main i {
     color: #4986fc !important;
-    font-size: 100px;
+    font-size: 80px;
+    border-radius: 100%;
+    overflow: none;
+    background-color: #fff;
 }
 .mainLeft {
     flex: 1;
@@ -107,8 +114,10 @@ main.main i {
 }
 
 .mainRightDo {
-    font-weight: bold;
+    font-weight: 700;
     margin-top: 10px;
+    font-size: 40px;
+    letter-spacing: 0px;
 }
 
 .mainRightDetail {
@@ -265,11 +274,11 @@ button {
   }
 
 .mobile-menu {
+    z-index: 2 !important;
     font-weight: bold;
     animation-name: slowShow;
-    animation-duration: 200ms;
+    animation-duration: 600ms;
     position: fixed;
-    z-index: 1;
     width: 50%;
     /* top: 60px; */
     top: 100px;
