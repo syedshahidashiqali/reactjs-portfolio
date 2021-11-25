@@ -7,7 +7,8 @@ import VisibilitySensor from "react-visibility-sensor";
 
 function Intro() {
 
-    const [focus, setFocus] = useState(false)
+    const [focus, setFocus] = useState(false);
+    const [classNames, setClassNames] = useState("right-section")
     return (
         <article className="intro">
             <div className="container section-container flex ai-c">
@@ -29,6 +30,8 @@ function Intro() {
                                             onChange={(isVisible) => {
                                                 if (isVisible) {
                                                     setFocus(true);
+                                                    setClassNames("right-section animate__animated animate__fadeInUp")
+
                                                 }
                                             }}
                                         >
@@ -43,7 +46,7 @@ function Intro() {
                     </section>
                     <section className="left-child-two"></section>
                 </section>
-                <section className="right-section">
+                <section className={classNames}>
                     <h6 className="right-section-title">Welcome to Portech</h6>
                     <h2>We Are Portech Creative Studio  Agency</h2>
                     <p>
