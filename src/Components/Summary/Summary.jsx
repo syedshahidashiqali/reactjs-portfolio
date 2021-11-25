@@ -33,7 +33,7 @@ const SummaryColumn = ({ src, num, title }) => {
             redraw={true}
             start={focus ? 0 : null}
             end={num}
-            duration={5}
+            duration={2}
             separator={","}
           >
             {({ countUpRef }) => (
