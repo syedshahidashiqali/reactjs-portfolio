@@ -139,13 +139,17 @@ function NavBar() {
             <Cards
               icon={uxIcon}
               title="UI/UX Design"
+              // delayclass="animate__delay-1s"
+              defaultClass='cards col-md-3 col-sm-12 col-xs-12'
               para="A small river named Duden flows by their place and supplies 
                         it with the necessary regelialia. It is a paradisematic country, 
                         in which roasted parts of sentences fly into your mouth."
             />
             <Cards
               icon={developmentIcon}
+              // delayclass="animate__delay-1s"
               title="Development"
+              defaultClass='cards col-md-3 col-sm-12 col-xs-12'
               para="A small river named Duden flows by their place and supplies 
                         it with the necessary regelialia. It is a paradisematic country, 
                         in which roasted parts of sentences fly into your mouth."
@@ -153,6 +157,8 @@ function NavBar() {
             <Cards
               icon={brandingIcon}
               title="Branding"
+              // delayclass="animate__delay-1s"
+              defaultClass='cards col-md-3 col-sm-12 col-xs-12'
               para="A small river named Duden flows by their place and supplies 
                         it with the necessary regelialia. It is a paradisematic country, 
                         in which roasted parts of sentences fly into your mouth."
@@ -160,6 +166,8 @@ function NavBar() {
             <Cards
               icon={searchOpIcon}
               title="Search Optimization"
+              // delayclass="animate__delay-1s"
+              defaultClass='cards col-md-3 col-sm-12 col-xs-12'
               para="A small river named Duden flows by their place and supplies 
                         it with the necessary regelialia. It is a paradisematic country, 
                         in which roasted parts of sentences fly into your mouth."

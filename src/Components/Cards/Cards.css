@@ -40,3 +40,10 @@
     }
     
 }
+.cards.hidden {
+    visibility: hidden;
+}
+
+.cards.show {
+    visibility: visible;
+}
