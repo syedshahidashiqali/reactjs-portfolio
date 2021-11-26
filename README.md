@@ -1,4 +1,4 @@
-# This project is created with ReactJS, Bootstrap V5, Animate.css animation, Custom CSS, custom css animation and react-visibilty-sensor
+# This project is created with ReactJS, Bootstrap V5, Animate.css animation, Custom CSS, custom css animation and react-visibility-sensor
 ## You can view this project by the link mentioned below:
 ### [https://reactjs-portech-portfolio-clone-by-shahid.surge.sh/](https://reactjs-portech-portfolio-clone-by-shahid.surge.sh/)
 
