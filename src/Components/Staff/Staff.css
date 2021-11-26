@@ -33,6 +33,10 @@
     background-color: #fff;
 }
 
+.staff-card:hover > img {
+    transform: translateY(-5%);
+}
+
 .staff-card:hover .staff-child > h5 {
     transition: 500ms ease-in-out;
     color: rgb(19, 18, 18);
