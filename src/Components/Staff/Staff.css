@@ -102,3 +102,19 @@
 .staff-icons > i:not(:first-child) {
     margin-left: 15px;
 }
+
+div.hidden {
+    visibility: hidden;
+}
+
+div.show {
+    visibility: visible;
+}
+
+button.hidden {
+    visibility: hidden;
+}
+
+button.show {
+    visibility: visible;
+}
