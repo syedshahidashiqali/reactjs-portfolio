@@ -7,8 +7,8 @@ function Staff() {
     // ALL STATES WITHIN THIS COMPONENT
     const [firstClass, setFirstClass] = useState("col-md-3 col-sm-12 col-xs-12 px-0 mb-5 staff-item hidden");
     const [secondClass, setSecondClass] = useState("col-md-3 col-sm-12 col-xs-12 staff-card staff-card-1 px-0 mb-5 hidden");
-    const [thirdClass, setThirdClass] = useState("col-md-3 col-sm-12 col-xs-12 staff-card staff-card-2 px-0 mb-5");
-    const [fourthClass, setFourthClass] = useState("col-md-3 col-sm-12 col-xs-12 staff-card staff-card-3 px-0 mb-5");
+    const [thirdClass, setThirdClass] = useState("col-md-3 col-sm-12 col-xs-12 staff-card staff-card-2 px-0 mb-5 hidden");
+    const [fourthClass, setFourthClass] = useState("col-md-3 col-sm-12 col-xs-12 staff-card staff-card-3 px-0 mb-5 hidden");
     const [firstIcon, setFirstIcon] = useState("staff-icons hidden");
     const [secondIcon, setSecondIcon] = useState("staff-icons hidden");
     const [thirdIcon, setThirdIcon] = useState("staff-icons hidden");
