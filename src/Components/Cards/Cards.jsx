@@ -3,7 +3,7 @@ import { useState } from "react";
 import VisibilitySensor from "react-visibility-sensor";
 function Cards({icon, title, para, defaultClass}) {
 
-    const [classNames, setClassNames] = useState("cards col-md-3 col-sm-12 col-xs-12 hidden")
+    const [classNames, setClassNames] = useState(defaultClass)
     // const [cardFocus, setCardFocus] = useState(false)
     return (
         <div className={classNames}>
@@ -12,7 +12,7 @@ function Cards({icon, title, para, defaultClass}) {
               console.log("Card is now %s", isVisible ? "visible" : "hidden");
               if(isVisible){
                 //   setCardFocus(true)
-                  setClassNames(`${defaultClass} show animate__animated animate__zoomIn`)
+                  setClassNames(`${classNames.replace("hidden","show")} animate__animated animate__zoomIn`)
                 //   console.log(isVisible)
               }
             }}>
