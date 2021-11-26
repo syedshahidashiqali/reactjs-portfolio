@@ -9,54 +9,67 @@ import VisibilitySensor from "react-visibility-sensor";
 
 const SummaryColumn = ({ src, num, title }) => {
   const [focus, setFocus] = useState(false);
+  const [className, setClassName] = useState("col-md-3 col-sm-12 col-xs-12 d-flex ai-c summaryCard hidden");
 
   return (
     <div
-      className="col-md-3 col-sm-12 col-xs-12 d-flex ai-c summaryCard"
+      className={className}
       style={{ width: "250px" }}
     >
-      <img
-        style={{
-          height: "80px",
-          marginRight: "15px",
-          backgroundColor: "#fff",
-          padding: "5%",
-          borderRadius: "5px",
-          // margin:"0px 0px", padding:"0px 0px"
-        }}
-        src={src}
-        alt=""
-      />
-      <div className="d-flex fd-column">
-        <h4 className="summaryNum">
-          <CountUp
-            redraw={true}
-            start={focus ? 0 : null}
-            end={num}
-            duration={2}
-            separator={","}
-          >
-            {({ countUpRef }) => (
-              <div>
-                <span ref={countUpRef} />
-                <VisibilitySensor
-                  onChange={(isVisible) => {
-                    if (isVisible) {
-                      setFocus(true);
-                    }
-                  }}
-                >
-                  <a>+</a>
-                </VisibilitySensor>
-              </div>
-            )}
-          </CountUp>
-        </h4>
-        <h5 className="summaryTitle">{title}</h5>
-      </div>
+      <VisibilitySensor onChange={(isVisible) => {
+        console.log("Summary section is now %s", isVisible ? "visible" : "hidden");
+        if(isVisible){
+        setClassName(`${className.replace("hidden","show")} animate__animated animate__rollIn`);
+        //   console.log(isVisible)
+        }
+        }}>
+        <>
+        <img
+          style={{
+            height: "80px",
+            marginRight: "15px",
+            backgroundColor: "#fff",
+            padding: "5%",
+            borderRadius: "5px",
+            // margin:"0px 0px", padding:"0px 0px"
+          }}
+          src={src}
+          alt=""
+        />
+        <div className="d-flex fd-column">
+          <h4 className="summaryNum">
+            <CountUp
+              redraw={true}
+              start={focus ? 0 : null}
+              end={num}
+              duration={2}
+              separator={","}
+            >
+              {({ countUpRef }) => (
+                <div>
+                  <span ref={countUpRef} />
+                  <VisibilitySensor
+                    onChange={(isVisible) => {
+                      if (isVisible) {
+                        setFocus(true);
+                      }
+                    }}
+                  >
+                    <a>+</a>
+                  </VisibilitySensor>
+                </div>
+              )}
+            </CountUp>
+          </h4>
+          <h5 className="summaryTitle">{title}</h5>
+        </div>
+        </>
+      </VisibilitySensor>
     </div>
   );
 };
+
+
 function Summary() {
   return (
     <div className="summary">
