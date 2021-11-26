@@ -132,3 +132,10 @@
         top: -60px !important;
     } */
 }
+
+section.right-section.hidden {
+    visibility: hidden;
+}
+section.right-section.visible {
+    visibility: visible;
+}
