@@ -126,8 +126,8 @@ function NavBar() {
               Vokalia and Consonantia, there live the blind texts.
             </h6>
             <div className="buttonsContainer mt-3">
-              <button className="learnMoreBtn">Learn More</button>
-              <button className="viewBtn">View Portfolio</button>
+              <button className="learnMoreBtn animate__animated animate__rollIn">Learn More</button>
+              <button className="viewBtn animate__animated animate__rollIn">View Portfolio</button>
             </div>
           </div>
         </main>
