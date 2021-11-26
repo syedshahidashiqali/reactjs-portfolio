@@ -19,7 +19,7 @@ function Intro() {
             <h3>
               {/* 42 */}
               <CountUp
-                redraw={true}
+                // redraw={true}
                 start={countFocus ? 0 : null}
                 end={42}
                 duration={1}

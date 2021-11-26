@@ -39,7 +39,7 @@ const SummaryColumn = ({ src, num, title }) => {
         <div className="d-flex fd-column">
           <h4 className="summaryNum">
             <CountUp
-              redraw={true}
+              // redraw={true}
               start={focus ? 0 : null}
               end={num}
               duration={2}
