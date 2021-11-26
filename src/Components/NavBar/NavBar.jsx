@@ -76,7 +76,7 @@ function NavBar() {
               Portech
             </a>
             {/* <a href="#" className="hamburger-menu hide-for-desktop"> */}
-            <a href="#" onClick={() => clickHandler()} className={classList}>
+            <a href="#" onClick={clickHandler} className={classList}>
               <span></span>
               <span></span>
               <span></span>
