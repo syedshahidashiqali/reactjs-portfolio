@@ -2,6 +2,9 @@
 ## You can view this project by the link mentioned below:
 ### [https://reactjs-portech-portfolio-clone-by-shahid.surge.sh/](https://reactjs-portech-portfolio-clone-by-shahid.surge.sh/)
 
+# Demo On Desktop Screen:
+![Preview](/portfolio-demo.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
